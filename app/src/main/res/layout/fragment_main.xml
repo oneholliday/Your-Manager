@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/tasks_item_main"
+            style="@style/item_main_st"
+            android:onClick="tasksOnClickMainFragment"
+            android:layout_weight="1"
+            tools:ignore="OnClick">
+
+            <ImageView
+                android:id="@+id/item_icon_tasks"
+                android:layout_width="@dimen/item_main_icon_width"
+                android:layout_height="@dimen/item_main_icon_height"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:src="@drawable/ic_task_image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_tasks_item_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/vertical_margin"
+                android:text="@string/tasks"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normalText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/item_icon_tasks" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/horizontal_margin"
+            android:layout_height="match_parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/finance_item_main"
+            style="@style/item_main_st"
+            android:onClick="financeOnClickMainFragment"
+            android:layout_weight="1"
+            tools:ignore="OnClick">
+
+            <ImageView
+                android:id="@+id/item_icon_finance"
+                android:layout_width="@dimen/item_main_icon_width"
+                android:layout_height="@dimen/item_main_icon_height"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:src="@drawable/ic_money_image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/tv_finance_item_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/vertical_margin"
+                android:text="@string/finance"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normalText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/item_icon_finance" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/horizontal_margin"
+            android:layout_height="match_parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/note_item_main"
+            style="@style/item_main_st"
+            android:onClick="notesOnClickMainFragment"
+            android:layout_weight="1"
+            tools:ignore="OnClick">
+
+            <ImageView
+                android:id="@+id/item_icon_note"
+                android:layout_width="@dimen/item_main_icon_width"
+                android:layout_height="@dimen/item_main_icon_height"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:src="@drawable/ic_note_image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_note_item_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/vertical_margin"
+                android:text="@string/notes"
+                android:textColor="@color/white"
+                android:textSize="@dimen/normalText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/item_icon_note" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">10dp</dimen>
+    <dimen name="normalText">16sp</dimen>
+    <dimen name="smallText">14sp</dimen>
+    <dimen name="vertical_large_margin">16dp</dimen>
+    <dimen name="main_toolbar_height">56dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+
+    <!--Settings fragment-->
+    <dimen name="settings_user_photo_width">55dp</dimen>
+    <dimen name="settings_user_photo_height">55dp</dimen>
+    <dimen name="settings_btn_change_photo_width">45dp</dimen>
+    <dimen name="settings_btn_change_photo_height">45dp</dimen>
+    <dimen name="settings_user_photo_border">2dp</dimen>
+    <dimen name="settings_ripple_effect_radius">4dp</dimen>
+    <dimen name="main_ripple_effect_radius">10dp</dimen>
+    <dimen name="appPadding">5dp</dimen>
+
+
+    <dimen name="item_main_width">120dp</dimen>
+    <dimen name="item_main_height">156dp</dimen>
+    <dimen name="item_main_icon_width">75dp</dimen>
+    <dimen name="item_main_icon_height">75dp</dimen>
+    <dimen name="icon_botNav">24dp</dimen>
+    <dimen name="edit_image_width">40dp</dimen>
+    <dimen name="edit_image_height">40dp</dimen>
+    <dimen name="large_text">18sp</dimen>
+    <dimen name="app_padding">10dp</dimen>
+</resources>

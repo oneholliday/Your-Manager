@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Your Manager</string>
+    <string name="tasks">Tasks</string>
+    <string name="finance">Finance</string>
+    <string name="notes">Notes</string>
+    <string name="james_holliday">James Holliday</string>
+    <string name="change_name">Change name</string>
+    <string name="exit">Exit</string>
+
+
+    <string name="settings_default_status">Status</string>
+    <string name="settings_text_account">Account</string>
+    <string name="settings_default_number">+79087485322</string>
+    <string name="settings_label_phone_number">Pressed for change telephone number</string>
+    <string name="settings_default_login">iHolliday</string>
+    <string name="settings_label_login">Login</string>
+    <string name="settings_default_bio">About me</string>
+    <string name="settings_label_bio">Write a little about yourself</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="data_err">DATA ERR</string>
+
+    <!-- Category in Notes Edit -->
+    <string name="diary">Diary</string>
+    <string name="thoughts">Thoughts</string>
+    <string name="letters">Letters</string>
+    <string name="category">Category</string>
+
+    <string-array name="categoryInNotesEdit">
+        <item>@string/notes</item>
+        <item>@string/diary</item>
+        <item>@string/thoughts</item>
+        <item>@string/letters</item>
+    </string-array>
+
+</resources>
